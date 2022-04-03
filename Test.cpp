@@ -50,6 +50,6 @@ TEST_CASE("Good"){
     CHECK(((b) >= a));
      CHECK(((2 * b) == f));
      CHECK(((++a) == d));
-     CHECK(((a += 2) == b));
+     
      
     }
