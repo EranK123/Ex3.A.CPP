@@ -27,7 +27,7 @@ TEST_CASE("Bad Input"){
     // CHECK_THROWS(m2 < m3);
     // CHECK_THROWS(m2 == m3);
 }
-
+//////
 TEST_CASE("Good"){
     std::vector<double> identity = {1, 0, 0, 0, 1, 0, 0, 0, 1};
     std::vector<double> arr = {3, 0, 0, 0, 3, 0, 0, 0, 3};
