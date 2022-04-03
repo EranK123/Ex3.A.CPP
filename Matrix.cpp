@@ -11,7 +11,7 @@ Matrix::Matrix(){
 
 }
 
-Matrix::Matrix(vector<double> v, int rows, int cols){
+Matrix::Matrix(vector<double> const & v, int rows, int cols){
     
 }
 Matrix Matrix::operator+(Matrix &m){
