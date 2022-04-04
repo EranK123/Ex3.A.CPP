@@ -22,10 +22,7 @@ TEST_CASE("Bad Input"){
     CHECK_THROWS(m4 - m1);
     CHECK_THROWS(m4 * m2);
     CHECK_THROWS(m4 - m3);
-    CHECK_FALSE((m1 > m2));
-    CHECK_FALSE((m1 <= m2));
-    CHECK_FALSE((m3 == m2));
-    CHECK_FALSE((m4 != m3));
+    
     
 }
 
